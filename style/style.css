@@ -1,11 +1,16 @@
+/* GLOBAL */
 *{  
     box-sizing: border-box;
-    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 body{
     padding: 0;
     margin: 0;
 }
+/* END GLOBAL */
+/* ********** */
+/* header */
 /* navbar brand */
 #header{
     position: fixed;
@@ -17,15 +22,18 @@ body{
 #header .navbar-brand img{
     width: 60px;
 }
-.navbar .nav-item .nav-link{
-    color: black;
+.header__navbar .nav-item .nav-link{
+    color: #000000;
 }
 .header__login{
     cursor: pointer;
-    
+    color: #9b9b9b !important;
+}
+.header__login span{
+    font-size: .5em;
 }
 .header__login i{
-    font-size: 30px;
+    font-size: 1em;
 }
 
 /* carousel item */
@@ -124,7 +132,7 @@ body{
 .home__app{
     background-image: url(./../img/movie-app.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     opacity: .8;
     width: 100%;
